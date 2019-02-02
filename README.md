@@ -10,4 +10,5 @@ I will continue to add notes as I go.
 
 ## Color Palette Inspiration
 Credit to [raccoonscity](https://www.color-hex.com/color-palette/38662)
+
 Credit to [sheknows.com](https://www.sheknows.com/home-and-gardening/articles/1009387/12-fall-color-palettes-for-your-kitchen/), #12 – Coffeehouse
