@@ -11,7 +11,7 @@ I will continue to add notes as I go.
 ## Color Palette Inspiration
 Credit to [raccoonscity](https://www.color-hex.com/color-palette/38662)
 
-Credit to [sheknows.com](https://www.sheknows.com/home-and-gardening/articles/1009387/12-fall-color-palettes-for-your-kitchen/), #12 – Coffeehouse
+Credit to [sheknows.com](https://www.sheknows.com/home-and-gardening/articles/1009387/12-fall-color-palettes-for-your-kitchen/), #3 – Enchanted Forest, #9 – Bountiful Corn, #12 – Coffeehouse
 
 ## Article of Inspiration
 The article below, assured me that what I am doing right now is the right thing, learn HTML and CSS from the roots. Granted I am or will be using tools such as Flexbox and possibly Grid, which has helped in simplifying the styling process, but I am still not relying on a framework. To this I must say, thank you Racel Andrew and the many others who have forged the way in the world of HTML, CSS, and JavaScript. 
