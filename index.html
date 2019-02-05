@@ -2,35 +2,38 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>The Bean – A Coffee Roastery</title>
         <meta name="description" content="The Bean is a mock site that I am creating to develop my web development skills.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <header>
-            <a href="/" id="logo">
-                <img src="assets/images/theBean-logo.png" alt="The Bean – A Coffee Roastery logo">            
+        <div class="upper-border"></div>
+        <header class="header">
+            <div class="header-container">
+            <a href="#" id="logo">
+                <img src="assets/images/theBean-logo-v2.png" alt="The Bean – A Coffee Roastery logo">            
             </a>
-            <nav>
-                <ul>
-                    <li><a href="#">Coffee</a></li>
-                    <li><a href="#">Our Process</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
+            <nav class="nav">
+                <ul class="nav-ul">
+                    <li class="nav-li"><a href="#">Coffee</a></li>
+                    <li class="nav-li"><a href="#">Our Process</a></li>
+                    <li class="nav-li"><a href="#">About Us</a></li>
+                    <li class="nav-li"><a href="#">Contact</a></li>
                 </ul>
 
                 <!-- Search Form -->
-                <form action="">
-                    <input type="search" name="q" placeholder="Search Bean">
-                    <input type="submit" value="Roast It">
+                <form class="search-form" action="">
+                    <input class="input-search" type="search" name="q" placeholder="Search Bean">
+                    <input class="input-submit" type="submit" value="Roast It">
                 </form>
             </nav>
             <div class="header-social-icons">
@@ -40,11 +43,12 @@
                     <li><a href="#" class="social-icon"><i class="fa fa-facebook"></i></a></li>
                 </ul>
             </div>
+            </div>
         </header>
         <main>
             <section class="hero section container">
-                <div class="hero image">
-                    <img src="" alt="">
+                <div class="hero-img image">
+                    <img src="assets/images/nathan-dumlao-463043-unsplash-ol33.jpg" alt="Three coffee tampers with coffee in them.">
                 </div>
                 <div class="hero cta">
                     <h1>Hello World!</h1>
@@ -184,7 +188,7 @@
         <footer>
             <div class="footer-nav">
                 <nav>
-                    <ul>
+                    <ul class="nav-ul">
                         <li><a href="#">Coffee</a></li>
                         <li><a href="#">Our Process</a></li>
                         <li><a href="#">About Us</a></li>
@@ -210,8 +214,8 @@
                     <p class="company-location">123 Air Loft Way<br>Somewhere, SP 80123</p>
                 </div>
                 <div class="company-contact-info">
-                    <p class="phone">Phone: 555-555-5555</p>
-                    <p class="Email">Email: coffeeroastery@thebean.com</p>
+                    <p class="phone"><b>Phone:</b> 555-555-5555</p>
+                    <p class="Email"><b>Email:</b> coffeeroastery@thebean.com</p>
                 </div>
                 <div class="footer-search">    
                     <!-- Search Form -->
