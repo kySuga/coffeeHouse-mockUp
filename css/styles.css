@@ -1,0 +1,327 @@
+/* NOTES ****************************************************************************************************
+* Photo Credits from Unsplash: Mike Kenneally, Nathan Dumlao, Mike Marquez, Tina Guina, Dave Michuda, Jo Lanta, Nick Hillier, nousnou iwasaki,
+* Blake Richard Verdoorn
+*
+*
+*
+*
+*************************** END NOTES */
+
+/* Social Media Icon Import */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+/* GLOBAL ****************************************************************************************************
+
+ /*  Borders are to see what all my boxes are doing */
+/* * {
+    border: 1px solid blue !important; 
+}
+div {
+    border: 1px solid red !important;
+} */
+
+/* Reference for box-sizing: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #f4e8c7;
+    font-size: 16px;
+    font-family: 'Catamaran', sans-serif;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-size: 4em;
+    line-height: 1.33em;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 2.5em;
+    line-height: 1.4em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+h1, h2, h3, h4,
+a {
+    font-family: 'Kameron', serif;
+}
+
+p {
+    font-family: 'Tenor Sans', sans-serif; 
+    font-size: 0.9em;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER ****************************************************************************************************/
+
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: #e7c85e;
+    margin-top: 1em;
+    border-top: 11px solid #3a2621;
+    border-bottom: 11px solid #3a2621;
+    z-index: 1;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upper-border {
+    position: fixed;
+    width: 100%;
+    height: 3em;
+    background-color: #cca450;
+    z-index: 1;
+}
+
+/* LOGO ****************************************************************************************************/
+
+#logo {
+    margin: 1em 0;
+}
+
+#logo img {
+    width: 250px;
+}
+
+
+/* NAVIGATION ****************************************************************************************************/
+
+.nav {
+    display: flex;
+    margin-bottom: -4em;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-li a {
+    padding: 2em 0.9em;
+    text-decoration: none;
+    color: #8e502e;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.search-form {
+    display: flex;
+}
+
+.input-search {
+    background-color: #f1e0b3;
+    color: #3a2621;
+    border: 2px solid #cca450;
+    flex-grow: 1;
+}
+
+.input-submit {
+    background-color: #9ba03b;
+    color: #742d1f;
+    border: none;
+}
+
+.social-icons-grouped {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icon .fa {
+    color: #742d1f;
+    padding: 0.4em 0;
+}
+
+/* BUTTONS ****************************************************************************************************/
+
+.hero-cta.button {
+    font-size: 1.3em;
+    padding: 0.8em 1.7em;
+    border-radius: 3px;
+}
+
+.cta-btn-one {
+    background-color: #9ba03b;
+    color: #742d1f;
+    border: transparent;
+    margin-right: 0.4em;
+}
+
+.cta-btn-two {
+    background-color: transparent;
+    color: #9ba03b;
+    border-color: #9ba03b;
+}
+
+
+/* HERO SECTION ****************************************************************************************************/
+
+.hero.section.container {
+    width: initial;
+    height: 750px;
+}
+
+.hero-img.image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+.hero.cta {
+    position: absolute;
+    top: 21em;
+    right: 11.5em;
+}
+
+.hero.cta h1 {
+    color: #cca450;
+}
+
+
+/* SECTION-ONE ****************************************************************************************************/
+
+.section-one {
+    display: flex;
+    width: initial;
+    padding-top: 4em;
+    margin-bottom: 4em;
+    background: #f4e8c7;
+}
+
+.section-one-content {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.feature-blog {
+    width: 50%;
+    margin-right: 7em;
+}
+
+.feature-blog img {
+    max-width: 100%;
+    height: auto;
+}
+
+.blog-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-list img {
+    width: 150px;
+    height: auto;
+}
+
+
+/* SECTION-TWO ****************************************************************************************************/
+
+.section-two {
+    display: flex;
+    padding: 4em 0;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.events {
+    width: 40%;
+    flex-grow: 2;
+}
+
+.latest-issue {
+    width: 30%;
+    flex-grow: 1;
+}
+
+.member-resources {
+    width: 30%;
+    flex-grow: 1;
+}
+
+
+
+/* SECTION-THREE ****************************************************************************************************/
+
+.section-three {
+    display: flex;
+    padding-top: 4em;
+    margin-bottom: 4em;
+    justify-content: space-around;
+}
+
+.supporter-slider {
+    display: flex;
+}
+
+
+
+/* FOOTER ****************************************************************************************************/
+
+#footer {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-nav {
+    display: flex;
+    margin: 0 auto;
+    /* justify-content: flex-start; */
+}
+
+.footer-nav .nav-ul li a {
+    padding: 1em 2em;
+}
+
+.footer-social-icons .social-icons-grouped {
+    flex-direction: initial;
+}
+
+.footer-social-icons {
+    margin-left: 28em;
+}
+
+.footer-social-icons .social-icons-grouped li {
+    padding: 1em;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.legal-misc-info {
+    display: flex;
+    justify-content: space-around;
+}
