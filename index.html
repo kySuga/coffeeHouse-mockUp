@@ -10,6 +10,7 @@
         <meta name="description" content="The Bean is a mock site that I am creating to develop my web development skills.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
@@ -21,7 +22,7 @@
 <!-- * HEADER - START **************************************************************************************************** -->        
         <header class="header">
             <div class="header-container container">
-            <a href="#" id="logo">
+            <a href="#" class="logo">
                 <img src="assets/images/theBean-logo-v2.png" alt="The Bean – A Coffee Roastery logo">            
             </a>
             <nav class="nav">
@@ -55,9 +56,9 @@
     <!-- * HERO SECTION **************************************************************************************************** -->
             <section class="hero section container">
                     <div class="hero-img image">
-                        <img src="assets/images/nathan-dumlao-463043-unsplash-ol33.jpg" alt="Three coffee tampers with coffee in them.">
+                        <img src="assets/images/nathan-dumlao-463043-unsplash-ol75db.jpg" alt="Three coffee tampers with coffee in them.">
                         <div class="hero cta">
-                            <h1>Hello World!</h1>
+                            <h1><span class="hero-cta-small-lettering">French press...</span><br><span>aromatic<br>steamed!</span></h1>
                             <button class="hero-cta cta-btn-one button">Our Coffee</button>
                             <button class="hero-cta cta-btn-two button">About Us</button>
                         </div>
@@ -80,7 +81,8 @@
                     <div class="feature-blog">
                         <h2>Coffee, Coffee, COFFEE!</h2>
                         <img src="assets/images/nathan-dumlao-463043-unsplash-ol33.jpg" alt="">
-                        <p>Single origin, aroma, cup cinnamon, extra aroma grounds kopi-luwak wings. Acerbic spoon roast caffeine, cappuccino mazagran so mazagran decaffeinated.</p>
+                        <h4>Month 00, 0000</h4>
+                        <h3>Single origin, aroma, cup, extra aroma grounds kopi-luwak.</h3>
                     </div>
                     <div class="blog-list">
                         <h2>Blog</h2>
@@ -92,6 +94,9 @@
                                 <h4>Month 00, 0000</h4>
                                 <h3>Strong carajillo and that ristretto fair trade galão and latte.</h3>
                             </div>
+                        </div>
+                        <hr>
+                        <div class="sub-blog">
                             <div class="sub-blog-img">
                                 <img src="assets/images/nathan-dumlao-463043-unsplash-ol33.jpg" alt="">
                             </div>
@@ -99,6 +104,9 @@
                                 <h4>Month 00, 0000</h4>
                                 <h3>Strong carajillo and that ristretto fair trade galão and latte.</h3>
                             </div>
+                        </div>
+                        <hr>
+                        <div class="sub-blog">
                             <div class="sub-blog-img">
                                 <img src="assets/images/nathan-dumlao-463043-unsplash-ol33.jpg" alt="">
                             </div>
@@ -115,23 +123,29 @@
             <section class="section-two section container">
                 <div class="events">
                     <h2>Events</h2>
-                    <div>
-                        <h4 class="date-box">Date</h4>
-                        <h3>That ristretto fair trade galão and latte.</h3>
-                    </div>
-                    <div>
-                        <h4 class="date-box">Date</h4>
-                        <h3>That ristretto fair trade galão and latte.</h3>
-                    </div>
-                    <div>
-                        <h4 class="date-box">Date</h4>
-                        <h3>That ristretto fair trade galão and latte.</h3>
+                    <div class="event-list">
+                        <div class="event">
+                            <h4 class="event-date">Month<br>00</h4>
+                            <h3 class="event-title">That ristretto fair trade galão and latte.</h3>
+                        </div>
+                        <div class="event">
+                            <h4 class="event-date">Month<br>00</h4>
+                            <h3 class="event-title">That ristretto fair trade galão and latte.</h3>
+                        </div>
+                        <div class="event">
+                            <h4 class="event-date">Month<br>00</h4>
+                            <h3 class="event-title">That ristretto fair trade galão and latte.</h3>
+                        </div>
+                        <div class="event">
+                            <h4 class="event-date">Month<br>00</h4>
+                            <h3 class="event-title">That ristretto fair trade galão and latte.</h3>
+                        </div>
                     </div>
                 </div>
-                <div class="latest-issue">
-                    <h2>Latest Issue</h2>
-                    <img src="" alt="">
-                    <h3>Coffee</h3>
+                <div class="latest-brew">
+                    <h2 class="latest-brew-title-main">Latest Brew</h2>
+                    <img src="assets/images/nathan-dumlao-463043-unsplash-ol33.jpg" alt="" class="latest-brew-image">
+                    <h3 class="latest-brew-title-sub">Coffee</h3>
                     <p>Single origin, aroma, cup cinnamon, extra aroma grounds kopi-luwak wings. Acerbic spoon roast caffeine, cappuccino mazagran so mazagran decaffeinated. Single origin, aroma, cup cinnamon, extra aroma grounds kopi-luwak wings. Acerbic spoon roast caffeine, cappuccino mazagran so mazagran decaffeinated.</p>
                 </div>
                 <div class="member-resources">
@@ -143,19 +157,19 @@
                     <button class="button">Blog</button>
                     <div class="pdfs">
                         <a href="#">
-                            <i class="fa fa-pdf"></i>
+                            <i class="fa fa-file-alt"></i>
                             <h3>Coffee Blog Title</h3>
                         </a>
                         <a href="#">
-                            <i class="fa fa-pdf"></i>
+                            <i class="fa fa-file-alt"></i>
                             <h3>Coffee Blog Title</h3>
                         </a>
                         <a href="#">
-                            <i class="fa fa-pdf"></i>
+                            <i class="fa fa-file-alt"></i>
                             <h3>Coffee Blog Title</h3>
                         </a>
                         <a href="#">
-                            <i class="fa fa-pdf"></i>
+                            <i class="fa fa-file-alt"></i>
                             <h3>Coffee Blog Title</h3>
                         </a>
                     </div>
@@ -213,27 +227,29 @@
 <!-- * FOOTER - START **************************************************************************************************** -->        
         <footer id="footer">
             <div class="footer-nav">
-                <nav>
-                    <ul class="nav-ul">
-                        <li><a href="#">Coffee</a></li>
-                        <li><a href="#">Our Process</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-                <div class="footer-social-icons">
-                    <ul class="social-icons-grouped">
-                        <li><a href="#" class="social-icon"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" class="social-icon"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#" class="social-icon"><i class="fa fa-facebook"></i></a></li>
-                    </ul>
-                </div>                
+                <div class="footer-nav-inner">
+                    <nav>
+                        <ul class="nav-ul">
+                            <li><a href="#">Coffee</a></li>
+                            <li><a href="#">Our Process</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="footer-social-icons">
+                        <ul class="social-icons-grouped">
+                            <li><a href="#" class="social-icon"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="social-icon"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#" class="social-icon"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div> 
+                </div>               
             </div>
             <div class="footer-bottom">
                 <div class="footer-contact">
                     <div class="footer-logo">
-                        <a href="/" id="logo">
-                            <img src="assets/images/theBean-logo.png" alt="The Bean – A Coffee Roastery logo">            
+                        <a href="#" class="logo">
+                            <img src="assets/images/theBean-logo-v2.png" alt="The Bean – A Coffee Roastery logo">            
                         </a>              
                     </div>
                     <div class="company-location-info">
@@ -262,6 +278,8 @@
             </div>
         </footer>
 <!-- * FOOTER - END **************************************************************************************************** -->
+
+        <!-- <div class="bottom-border"></div> -->
 
         <script src="" async defer></script>
     </body>
